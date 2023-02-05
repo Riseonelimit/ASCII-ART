@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 500); 
+  createCanvas(800, 800); 
   
   forecast = '';
   const periods = data.properties.periods;
@@ -19,7 +19,7 @@ function setup() {
   }
     
   
- textFont("Courier-Bold");
+ textFont("Courier");
   
 }
 
